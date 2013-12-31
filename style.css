@@ -4,14 +4,14 @@
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 200;
-  src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(raleway-200.woff) format('woff');
+  src: url('raleway-200.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
-  src: local('Raleway'), url(raleway-400.woff) format('woff');
+  src: url('raleway-400.ttf') format('truetype');
 }
 
 body {

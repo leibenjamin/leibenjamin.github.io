@@ -1,0 +1,68 @@
+/* defaults */
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(raleway-200.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), url(raleway-400.woff) format('woff');
+}
+
+body {
+  font-family: Raleway, sans-serif;
+  font-weight: 200;
+  font-size: 80%;
+}
+
+h1, h2 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 200%;
+  color: #444;
+}
+
+h2 {
+  font-size: 150%;
+  color: #777;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 a {
+  color: #444;
+}
+
+h2 a {
+  color: #777;
+}
+
+h2 a:visited {
+  color: #aaa;
+}
+
+h1 a:hover, h2 a:hover {
+  text-decoration: none;
+}
+
+
+/* layout */
+
+main {
+  max-width: 30em;
+  margin: 3em auto;
+  text-align: center;
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, user-scalable=no">
+
+<title>
+  {{ page.title }}
+  {% if page.title %}·{% endif %}
+  {{ site.name }}
+</title>
+<link rel=stylesheet href="/style.css">
+
+<header>
+  <h1><a href=/>{{ site.name }}</a></h1>
+</header>
+
+<main>
+  {{ content }}
+</main>

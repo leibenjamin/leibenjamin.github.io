@@ -18,13 +18,20 @@
 }
 
 body {
+  margin: 0;
   font-family: Raleway, serif;
   font-weight: 200;
   font-size: 80%;
   text-rendering: optimizeLegibility;
+  color: #111;
 }
 
-h1, h2 {
+header, main {
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
   font-weight: 400;
 }
 
@@ -34,8 +41,14 @@ h1 {
 }
 
 h2 {
+  margin-bottom: 0;
   font-size: 150%;
   color: #777;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 100%;
 }
 
 a {
@@ -56,17 +69,4 @@ h2 a {
 
 h2 a:visited {
   color: #aaa;
-}
-
-h1 a:hover, h2 a:hover {
-  text-decoration: none;
-}
-
-
-/* layout */
-
-main {
-  max-width: 30em;
-  margin: 3em auto;
-  text-align: center;
 }

@@ -16,6 +16,14 @@ layout: default
 
   {% if post.image %}
   <img src={{ post.image }}>
+  {% elsif post.youtube %}
+  <div class=video>
+    <iframe src=https://www.youtube.com/embed/{{ post.youtube }} width=500 height=281 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+  {% elsif post.vimeo %}
+  <div class=video>
+    <iframe src=https://player.vimeo.com/video/{{ post.vimeo }} width=500 height=281 frameborder=0 webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
   {% endif %}
 
   {{ post.content }}

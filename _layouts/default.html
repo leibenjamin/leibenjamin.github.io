@@ -10,9 +10,17 @@
 <link rel=stylesheet href="/style.css">
 
 <header>
-  <h1><a href=/>{{ site.name }}</a></h1>
+  <h1><a href=/stream/>{{ site.name }}</a></h1>
 </header>
 
 <main>
   {{ content }}
 </main>
+
+<script>
+  if (location.href.slice(location.href.length - 10) === 'index.html')
+    if (history)
+      history.replaceState(null, '', location.href.slice(0, location.href.length - 10));
+    else
+      location.replace(location.href.slice(0, location.href.length - 10));
+</script>

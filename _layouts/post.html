@@ -12,5 +12,10 @@ layout: default
     {% endif %}
   </h2>
   <h3>{{ page.date | date_to_string }}</h3>
+
+  {% if page.image %}
+  <img src={{ page.image }}>
+  {% endif %}
+
   {{ content }}
 </article>

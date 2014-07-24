@@ -88,3 +88,8 @@ h2 a.permalink {
 article:hover a.permalink {
   visibility: visible;
 }
+
+img {
+  width: 100%;
+  margin: 1em 0;
+}

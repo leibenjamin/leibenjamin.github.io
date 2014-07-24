@@ -1,1 +1,4 @@
 name: Ben’s Stream
+permalink: /stream/:categories/:year/:month/:day/:title/
+gems:
+  - jekyll-redirect-from

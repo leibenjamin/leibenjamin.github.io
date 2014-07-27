@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Ben’s Stream
 redirect_from: /
 ---
 
@@ -39,6 +40,8 @@ redirect_from: /
 
 <script>
   (function(window, document) {
+
+    if (window.html5 /* [lt IE 9] */) return;
 
     var tags = {};
     var hash = document.querySelector('#hash');

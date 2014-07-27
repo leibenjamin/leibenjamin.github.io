@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html class=no-js>
 
+
+<head>
+
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width, user-scalable=no">
 <title>{{ page.title || site.name }}</title>
 <link rel=stylesheet href="/style.css">
+<!--[if lt IE 9]><script src="/html5shiv.js"></script><![endif]-->
 <script>document.documentElement.className = ''</script>
+
+</head>
+
+
+<body>
 
 <header>
   <h1>
@@ -25,5 +34,8 @@
     else
       location.replace(location.href.slice(0, location.href.length - 10));
 </script>
+
+</body>
+
 
 </html>

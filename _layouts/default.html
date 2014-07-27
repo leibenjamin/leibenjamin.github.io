@@ -9,7 +9,7 @@
 <title>{{ page.title || site.name }}</title>
 <link rel=stylesheet href="/style.css">
 <!--[if lt IE 9]><script src="/html5shiv.js"></script><![endif]-->
-<script>document.documentElement.className = ''</script>
+<script>if (!window.html5 /* ![lt IE 9] */) document.documentElement.className = ''</script>
 
 </head>
 
@@ -29,7 +29,7 @@
 
 <script>
   if (location.href.slice(location.href.length - 10) === 'index.html')
-    if (history)
+    if (history && history.replaceState)
       history.replaceState(null, '', location.href.slice(0, location.href.length - 10));
     else
       location.replace(location.href.slice(0, location.href.length - 10));

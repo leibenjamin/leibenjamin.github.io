@@ -1,33 +1,17 @@
 /* defaults */
 
-@font-face {
-  font-family: Raleway;
-  font-weight: 200;
-  src: local('Raleway ExtraLight'),
-       local('Raleway-ExtraLight'),
-       url('raleway-200.ttf');
-}
-
-@font-face {
-  font-family: Raleway;
-  font-weight: 400;
-  src: local('Raleway'),
-       local('Raleway Regular'),
-       local('Raleway-Regular'),
-       url('raleway-400.ttf');
-}
-
 body {
   margin: 0;
-  font-family: Raleway, serif;
+  font-family: "Gill Sans", "Gill Sans MT", "Helvetica Neue", "Segoe UI", Calibri, sans-serif;
   font-weight: 200;
-  font-size: 80%;
+  font-size: 90%;
+  line-height: 135%;
   text-rendering: optimizeLegibility;
   color: #111;
 }
 
 h1, h2, h3 {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 h1 {
@@ -42,14 +26,20 @@ h2 {
 
 h3 {
   font-size: 100%;
+  color: #666;
 }
 
-a {
+a, a:visited {
   text-decoration: none;
+  color: steelblue;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+b, strong {
+  font-weight: 600;
 }
 
 
@@ -72,7 +62,7 @@ h1 {
   margin-top: 1em;
 }
 
-h1 a {
+h1 a, h1 a:visited {
   color: #444;
 }
 
@@ -81,11 +71,11 @@ h1 a#hash {
   font-weight: 200;
 }
 
-h1 a#hash {
+h1 a#hash, h1 a#hash:visited {
   color: powderblue;
 }
 
-h1 a#hash span {
+h1 a#hash span, h1 a#hash:visited span {
   color: lightsteelblue;
 }
 
@@ -109,11 +99,7 @@ h3 {
   margin-top: 0;
 }
 
-h2 a {
-  color: #777;
-}
-
-h2 a:visited {
+h2 a, h2 a:visited {
   color: #aaa;
 }
 
@@ -159,11 +145,11 @@ img {
   list-style-type: none;
 }
 
-.tags a {
+.tags a, .tags a:visited {
   color: powderblue;
 }
 
-.tags a span {
+.tags a span, .tags a:visited span {
   color: lightsteelblue;
 }
 

@@ -1,16 +1,17 @@
 <!DOCTYPE html>
+<html class=no-js>
+
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width, user-scalable=no">
-
-<title>
-  {{ page.title }}
-  {% if page.title %}·{% endif %}
-  {{ site.name }}
-</title>
+<title>{{ page.title || site.name }}</title>
 <link rel=stylesheet href="/style.css">
+<script>document.documentElement.className = ''</script>
 
 <header>
-  <h1><a href=/stream/>{{ site.name }}</a></h1>
+  <h1>
+    <a href=/stream/>{{ site.name }}</a>
+    <a id=hash></a>
+  </h1>
 </header>
 
 <main>
@@ -24,3 +25,5 @@
     else
       location.replace(location.href.slice(0, location.href.length - 10));
 </script>
+
+</html>

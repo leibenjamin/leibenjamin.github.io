@@ -26,4 +26,10 @@ layout: default
   {% endif %}
 
   {{ content }}
+
+  <ul class=tags>
+    {% for tag in page.tags %}
+    <li><a href=/stream/#{{ tag }}>#<span>{{ tag }}</span></a>
+    {% endfor %}
+  </ul>
 </article>

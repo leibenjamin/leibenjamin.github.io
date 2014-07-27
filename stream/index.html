@@ -28,5 +28,49 @@ redirect_from: /
   {% endif %}
 
   {{ post.content }}
+
+  <ul class=tags>
+    {% for tag in post.tags %}
+    <li><a href=#{{ tag }}>#<span>{{ tag }}</span></a>
+    {% endfor %}
+  </ul>
 </article>
 {% endfor %}
+
+<script>
+  (function(window, document) {
+
+    var tags = {};
+    var hash = document.querySelector('#hash');
+    var posts = [].slice.call(document.querySelectorAll('article'));
+
+    posts.forEach(function(post) {
+      [].slice.call(post.querySelectorAll('.tags a'))
+        .map(function(el) { return (el.textContent || el.innerText).slice(1).toLowerCase(); })
+        .forEach(function(name) { (tags[name] = tags[name] || []).push(post); });
+    });
+
+    (window.onhashchange = function() {
+
+      var name = location.hash.slice(1);
+
+      document.title = 'Ben’s Stream' + (name ? ' / #' + name: '');
+
+      hash.href = '#' + name;
+      hash.innerHTML = '#<span>' + name + '</span>';
+      hash.style.display = name ? 'inline' : 'none';
+
+      name = name.toLowerCase();
+      posts.forEach(function(post) {
+        post.style.display = !name || tags[name] && tags[name].indexOf(post) > -1 ? 'block' : 'none';
+      });
+
+      if (history && !name && location.href[location.href.length - 1] === '#')
+        history.replaceState(null, '', location.href.slice(0, location.href.length - 1));
+
+    })();
+
+    if (history) document.querySelector('header a').href = '#';
+
+  })(window, document);
+</script>

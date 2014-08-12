@@ -11,4 +11,4 @@ tags:
 
 **\[30m podcast\]**
 
-Been going through old Planet Money podcasts.  This one is quite fun; as the title says, the Planet Money team goes through the whole process of setting up an offshore company.
+Been going through old Planet Money podcasts.  This one is quite fun; as the title says, the Planet Money team walks the listener through their process of setting up an offshore company.

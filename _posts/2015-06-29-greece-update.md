@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Update on Greece Crisis "
-link:   www.bbc.com/news/world-europe-33303105
+link:   http://www.bbc.com/news/world-europe-33303105
 tags:
 - Greece
 - EU

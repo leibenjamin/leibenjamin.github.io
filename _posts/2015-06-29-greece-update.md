@@ -7,6 +7,7 @@ tags:
 - EU
 - ECB
 - Greece Crisis
+- IR
 ---
 
 **\[2 page article\]**

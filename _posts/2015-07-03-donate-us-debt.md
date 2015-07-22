@@ -7,6 +7,7 @@ tags:
 - National Debt
 - Charity
 - Donations
+- IR
 ---
 
 **\[1 page with chart\]**

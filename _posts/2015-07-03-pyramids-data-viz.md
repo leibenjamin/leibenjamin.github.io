@@ -6,6 +6,7 @@ tags:
 - Data Visualization
 - Charts
 - Humor
+- IR
 ---
 
 ![Pyramid Shadows](https://i.imgur.com/OUe6WiC.jpg)

@@ -6,7 +6,7 @@ tags:
 - PlanetMoney
 - Podcast
 - Economics
-- US Economy
+- USEconomy
 - 
 ---
 

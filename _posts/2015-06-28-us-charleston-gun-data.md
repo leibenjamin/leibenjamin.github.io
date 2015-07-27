@@ -14,6 +14,8 @@ tags:
 
 The Economist covers some of the US numbers on gun perception and gun control.
 
+I wonder if there has been international discontent with US gun policies.  Mexico would be a likely complainant, though it would likely prefer to work with US authorities rather than pursue judicial avenues.  Actually, I wonder if Mexico ever tried to get redress for the US's Operation Fast and Furious gunrunning program, though that's a mostly separate issue.
+
 * Americans are far more likely to die by gunfire than people in any other rich country. In 2013, 21,175 people killed themselves with guns and 11,208 people were killed by others.
 * Mass shootings appear to be more common, too. 133 have been counted in the United States between 2000 and 2014 (excluding gang violence or terrorism).
 * 21m background checks of various sorts were performed in 2014, up from just 8.6m a decade earlier. Those numbers soared almost as soon as Mr Obama was elected.

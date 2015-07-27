@@ -5,6 +5,8 @@ link:   http://www.economist.com/news/business/21654599-companies-are-fighting-i
 tags:
 - InternationalBusiness
 - IR
+- Sanctions
+- TheEconomist
 ---
 
 [1 page article]

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  ""
-link:   http://www.economist.com/news/business/21654599-companies-are-fighting-inclusion-sanctions-listsand-winning-sort-who-are-you-calling
+title:  "The private fight against sanctions"
+link:    http://www.economist.com/news/business/21654599-companies-are-fighting-inclusion-sanctions-listsand-winning-sort-who-are-you-calling
 tags:
 - InternationalBusiness
 - IR

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Girl Scouts"
-link:   www.thisamericanlife.org/radio-archives/episode/559/captains-log?act=1
+link:   http://www.thisamericanlife.org/radio-archives/episode/559/captains-log?act=1
 tags:
 - IR
 - ThisAmericanLife

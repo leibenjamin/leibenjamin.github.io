@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "US Military spread unknowingly harmful bacteria in massive, secret civilian experiments"
+title:  "US Military unknowingly spread harmful bacteria in massive, secret civilian experiments"
 link:   http://www.businessinsider.com/the-military-tested-bacterial-weapons-in-san-francisco-2015-7
 tags:
 - WMD

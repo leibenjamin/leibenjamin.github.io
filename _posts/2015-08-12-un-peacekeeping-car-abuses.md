@@ -6,7 +6,7 @@ tags:
 - CentralAfricanRepublic
 - UN
 - Peacekeeping
-- TheEconomist
+- ForeignPolicyMagazine
 - IR
 ---
 

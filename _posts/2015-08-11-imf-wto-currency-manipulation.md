@@ -7,6 +7,7 @@ tags:
 - IMF
 - Currencies
 - IR
+- ForeignAffairsMagazine
 ---
 
 [1 page article]

@@ -7,7 +7,7 @@ tags:
 - ChineseStockExchanges
 - Finance
 - StockExchanges
-- TheEconomist
+- BloombergBusiness
 - IR
 ---
 

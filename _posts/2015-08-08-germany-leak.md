@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  ""
-link:   www
+title:  "Germany Press Freedom versus National Security"
+link:   http://www.economist.com/news/europe/21660580-state-secrets-and-press-freedom-internet-era-wiki-treason
 tags:
 - PressFreedom
 - Germany

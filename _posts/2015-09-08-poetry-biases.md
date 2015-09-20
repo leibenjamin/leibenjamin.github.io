@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "White Poet using a Chinese pseudonym confounds anthology editor"
+title:  "White poet using a Chinese pseudonym confounds anthology editor"
 link:   http://www.theatlantic.com/politics/archive/2015/09/when-a-poem-by-a-white-male-author-smells-less-sweet/404134/
 tags:
 - TheAtlantic

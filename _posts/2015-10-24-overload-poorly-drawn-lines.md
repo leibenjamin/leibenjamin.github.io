@@ -9,5 +9,4 @@ tags:
 - PoorlyDrawnLines
 - Webcomic
 ---
-
 From the delightfully whimsical webcomic, Poorly Drawn Lines.

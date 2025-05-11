@@ -8,5 +8,6 @@ tags:
 - CognitiveOverload
 - PoorlyDrawnLines
 - Webcomic
+- Mental
 ---
 From the delightfully whimsical webcomic, Poorly Drawn Lines.

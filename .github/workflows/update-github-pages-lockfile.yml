@@ -27,6 +27,7 @@ jobs:
       - name: Update GitHub Pages dependencies
         run: |
           bundle update github-pages jekyll-redirect-from
+          bundle lock --normalize-platforms
           bundle exec jekyll build
 
       - name: Commit lockfile update

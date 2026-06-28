@@ -1,4 +1,5 @@
 name: Ben’s Stream
+title: Ben’s Stream
 permalink: /stream/:categories/:year/:month/:day/:title/
 plugins:
   - jekyll-redirect-from

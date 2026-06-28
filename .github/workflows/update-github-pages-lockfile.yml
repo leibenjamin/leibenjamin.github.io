@@ -1,0 +1,43 @@
+name: Update GitHub Pages lockfile
+
+on:
+  push:
+    branches:
+      - security/update-github-pages-deps
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-lockfile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler: latest
+          bundler-cache: false
+
+      - name: Update GitHub Pages dependencies
+        run: |
+          bundle update github-pages jekyll-redirect-from
+          bundle exec jekyll build
+
+      - name: Commit lockfile update
+        run: |
+          if git diff --quiet; then
+            echo "No dependency changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Gemfile Gemfile.lock _config.yml
+          git commit -m "Update GitHub Pages dependencies"
+          git push
